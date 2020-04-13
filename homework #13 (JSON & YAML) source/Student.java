@@ -1,19 +1,21 @@
+package groupID;
+
 import java.io.Serializable;
 
 public class Student implements Serializable {
-    private String name;
-    private char gender;
-    private int date;
-    private int group;
+    public String name;
+    public String  gender;
+    public long date;
+    public long group;
 
     public Student() {};
 
-    public Student(String name, int date) {
+    public Student(String name, long date) {
         this.name = name;
         this.date = date;
     }
 
-    public Student(String name, char gender, int date, int group) {
+    public Student(String name, String gender, long date, long group) {
         this.name = name;
         this.gender = gender;
         this.date = date;
@@ -28,15 +30,15 @@ public class Student implements Serializable {
         this.name = name;
     }
 
-    public char getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(char gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 
-    public int getDate() {
+    public long getDate() {
         return date;
     }
 
@@ -44,7 +46,7 @@ public class Student implements Serializable {
         this.date = data;
     }
 
-    public int getGroup() {
+    public long getGroup() {
         return group;
     }
 

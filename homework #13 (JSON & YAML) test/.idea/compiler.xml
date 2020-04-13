@@ -6,7 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="homework #13 (JSON &amp; YAML) test" />
+        <module name="homework #13 (JSON &amp; YAML)" />
       </profile>
     </annotationProcessing>
   </component>

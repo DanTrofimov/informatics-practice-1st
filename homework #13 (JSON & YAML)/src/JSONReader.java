@@ -4,6 +4,6 @@ public class JSONReader {
         TODO:  JavaSimple https://www.codeflow.site/ru/article/java__json-simple-example-read-and-write-json
         TODO: SnakeYAML https://www.baeldung.com/java-snake-yaml
          */
-
+        System.out.println("hey");
     }
 }

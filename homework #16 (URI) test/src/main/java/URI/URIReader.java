@@ -23,7 +23,7 @@ public class URIReader {
                out.write("\n");
            }
            // add type to the name
-           File outputNew = new File(outputDefault.getParent() + "output" + type.split("/")[1]); //text/html; charset=UTF-8
+           File outputNew = new File(outputDefault.getParent() + "output." + type.split("/")[1]); //text/html; charset=UTF-8
            Files.copy(outputDefault.toPath(), outputNew.toPath());
        } catch (IOException ex0) {
            System.out.println(ex0.getMessage());

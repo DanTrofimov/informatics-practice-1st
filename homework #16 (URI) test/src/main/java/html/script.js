@@ -16,3 +16,4 @@ button[1].addEventListener("click", function(event) {
 // getting divs from html
 var divs = document.getElementsByTagName('div');
 console.log(divs.length);
+var variable = "//"

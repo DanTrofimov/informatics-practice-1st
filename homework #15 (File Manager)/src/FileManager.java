@@ -94,12 +94,12 @@ public class FileManager {
         return currentPath;
     }
 
-    // copy file  todo: fix exeption (indexoutofbounds...)
+    // copy file
     public String copyFile(String nameFile){
         File copy = new File(new File(currentPath) + "\\" + nameFile);
         String name1 = nameFile.substring(0, nameFile.lastIndexOf("."));
         String name2 = nameFile.substring(nameFile.lastIndexOf("."));
-        File originalPath = new File(new File(currentPath) + "\\" + (Math.random() * 100) + name2);
+        File originalPath = new File(new File(currentPath) + "\\" + name1 + Math.round(Math.random() * 100) + name2);
         try {
             Files.copy(copy.toPath(), originalPath.toPath());
             System.out.println("Copied");
@@ -114,11 +114,13 @@ public class FileManager {
         File deleting = new File(nameFile);
         if ((deleting.isAbsolute()) && deleting.isFile()){
             deleting.delete();
+            System.out.println("Deleted");
         }
         else{
             deleting = new File(new File(currentPath) + "\\" + nameFile);
             if (deleting.isFile()) {
                 deleting.delete();
+                System.out.println("Deleted");
             }
         }
         return currentPath;

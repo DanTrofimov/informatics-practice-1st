@@ -1,5 +1,7 @@
+import java.awt.*;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.Arrays;
@@ -8,7 +10,7 @@ import java.util.Scanner;
 public class FileManager {
     private File currentFile;
     public String currentPath;
-    private String[] commandsList = {"/help", "/cd..", "/cd <pathname>", "/exit"};
+    private String[] commandsList = {"/help", "/cd..", "/cd <pathname>", "/exit", "/show", "/open", "/copy", "/delete"};
 
     // constructor
     public FileManager() {
@@ -73,8 +75,57 @@ public class FileManager {
         System.exit(0);
     }
 
+    // files in the current directory
+    public String directoryFiles(){
+        String[] files = new File(currentPath).list();
+        for (String file : files) {
+            System.out.println(file);
+        }
+        return currentPath;
+    }
+
+    // open file
+    public String openFile(String nameFile) throws IOException {
+        Desktop desktop = Desktop.getDesktop();
+        File bufPath = new File(new File(currentPath) + "\\" + nameFile);
+        if (bufPath.isFile()) {
+            desktop.open(new java.io.File(bufPath.getAbsolutePath()));
+        }
+        return currentPath;
+    }
+
+    // copy file  todo: fix exeption (indexoutofbounds...)
+    public String copyFile(String nameFile){
+        File copy = new File(new File(currentPath) + "\\" + nameFile);
+        String name1 = nameFile.substring(0, nameFile.lastIndexOf("."));
+        String name2 = nameFile.substring(nameFile.lastIndexOf("."));
+        File originalPath = new File(new File(currentPath) + "\\" + (Math.random() * 100) + name2);
+        try {
+            Files.copy(copy.toPath(), originalPath.toPath());
+            System.out.println("Copied");
+        } catch (IOException e) {
+            System.out.println("Probably file is already exist");
+        }
+        return currentPath;
+    }
+
+    // delete file
+    public String deleteFile(String nameFile){
+        File deleting = new File(nameFile);
+        if ((deleting.isAbsolute()) && deleting.isFile()){
+            deleting.delete();
+        }
+        else{
+            deleting = new File(new File(currentPath) + "\\" + nameFile);
+            if (deleting.isFile()) {
+                deleting.delete();
+            }
+        }
+        return currentPath;
+    }
+
     // FileManager commands handler
-    public void handler() {
+    public void handler() throws IOException {
         Scanner sc = new Scanner(System.in);
         FileManager manager = new FileManager();
         while (true) {
@@ -93,13 +144,31 @@ public class FileManager {
                         case "/cd..":
                             System.out.println(manager.changeBack());
                             break;
+                        case "/show":
+                            System.out.println(manager.directoryFiles());
+                            break;
                         default:
                             System.out.println("Incorrect input. Try again");
                     }
                 } else if (input.split(" ").length == 2) {
                     String command = input.split(" ")[0];
                     String path = input.split(" ")[1];
-                    System.out.println(manager.changeDirectory(path));
+                    switch (command) {
+                        case "/open":
+                            manager.openFile(path);
+                            break;
+                        case "/cd":
+                            System.out.println(manager.changeDirectory(path));
+                            break;
+                        case "/copy":
+                            System.out.println(manager.copyFile(path));
+                            break;
+                        case "/delete":
+                            System.out.println(manager.deleteFile(path));
+                            break;
+                        default:
+                            System.out.println("Incorrect input. Try again");
+                    }
                 }
             }
         }

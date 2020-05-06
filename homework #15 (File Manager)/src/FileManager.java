@@ -1,6 +1,6 @@
 import java.awt.*;
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class FileManager {
     private File currentFile;
     public String currentPath;
-    private String[] commandsList = {"/help", "/cd..", "/cd <pathname>", "/exit", "/show", "/open", "/copy", "/delete"};
+    private String[] commandsList = {"/help", "/cd..", "/cd <pathname>", "/exit", "/files", "/open", "/copy", "/delete", "/show"};
 
     // constructor
     public FileManager() {
@@ -89,7 +89,7 @@ public class FileManager {
         Desktop desktop = Desktop.getDesktop();
         File bufPath = new File(new File(currentPath) + "\\" + nameFile);
         if (bufPath.isFile()) {
-            desktop.open(new java.io.File(bufPath.getAbsolutePath()));
+            desktop.open(new File(bufPath.getAbsolutePath()));
         }
         return currentPath;
     }
@@ -126,13 +126,53 @@ public class FileManager {
         return currentPath;
     }
 
+    // shows what file contains
+    public String showContent(String nameFile) {
+        StringBuilder fileContent = new StringBuilder();
+        String pathString = currentPath + "\\" + nameFile;
+        Path path = Paths.get(pathString);
+        path.normalize();
+        try (BufferedReader br = new BufferedReader(
+                new InputStreamReader(
+                        new FileInputStream(path.toString()), StandardCharsets.UTF_8))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                fileContent.append(line);
+                fileContent.append("\n");
+            }
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return fileContent.toString();
+    }
+
+    // shows what file contains with considering charset
+    public String showContent(String nameFile, String charsetName) {
+        StringBuilder fileContent = new StringBuilder();
+        String pathString = currentPath + "\\" + nameFile;
+        Path path = Paths.get(pathString);
+        path.normalize();
+        try (BufferedReader br = new BufferedReader(
+                new InputStreamReader(
+                        new FileInputStream(path.toString()), charsetName))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                fileContent.append(line);
+                fileContent.append("\n");
+            }
+        } catch (IOException ex) {
+            System.out.println(ex.getMessage());
+        }
+        return fileContent.toString();
+    }
+
     // FileManager commands handler
     public void handler() throws IOException {
         Scanner sc = new Scanner(System.in);
         FileManager manager = new FileManager();
         while (true) {
             String input = sc.nextLine();
-            if (input.split(" ").length > 2) {
+            if (input.split(" ").length > 3) {
                 System.out.println("Incorrect input. Try again");
             } else {
                 if (input.split(" ").length == 1) {
@@ -146,7 +186,7 @@ public class FileManager {
                         case "/cd..":
                             System.out.println(manager.changeBack());
                             break;
-                        case "/show":
+                        case "/files":
                             System.out.println(manager.directoryFiles());
                             break;
                         default:
@@ -167,6 +207,22 @@ public class FileManager {
                             break;
                         case "/delete":
                             System.out.println(manager.deleteFile(path));
+                            break;
+                        case "/show":
+                            System.out.println(manager.showContent(path));
+                            System.out.println("That is the end of file");
+                            break;
+                        default:
+                            System.out.println("Incorrect input. Try again");
+                    }
+                } else if (input.split(" ").length == 3) {
+                    String command = input.split(" ")[0];
+                    String path = input.split(" ")[1];
+                    String charset = input.split(" ")[2];
+                    switch (command) {
+                        case "/show":
+                            System.out.println(manager.showContent(path, charset));
+                            System.out.println("That is the end of file");
                             break;
                         default:
                             System.out.println("Incorrect input. Try again");

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>todo.js app | todo.js</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="todo.js app" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="ToDo app" />
+<meta property="og:description" content="ToDo app" />
+<link rel="canonical" href="https://chackydude.github.io/todo.js/" />
+<meta property="og:url" content="https://chackydude.github.io/todo.js/" />
+<meta property="og:site_name" content="todo.js" />
+<script type="application/ld+json">
+{"headline":"todo.js app","@type":"WebSite","url":"https://chackydude.github.io/todo.js/","name":"todo.js","description":"ToDo app","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/todo.js/assets/css/style.css?v=f92955d862fe3507da362efdd684df74d956e252">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://chackydude.github.io/todo.js/">todo.js</a></h1>
+      
+
+      <h1 id="todojs-app">todo.js app</h1>
+<p>is my pet JS project, to repeat OOP.</p>
+
+<p>Here I tried to use MVC-pattern (Model-View-Controller)</p>
+
+<p><img src="https://github.com/chackydude/todo.js/raw/master/MVC.png" alt="scheme of MVC pattern" /></p>
+
+<p>Model–view–controller (usually known as MVC) is a software design pattern commonly used for developing user interfaces which divides the related program logic into three interconnected elements.</p>
+
+<h3 id="model">Model</h3>
+<p>The central component of the pattern. It is the application’s dynamic data structure, independent of the user interface. It directly manages the data, logic and rules of the application.</p>
+<h3 id="view">View</h3>
+<p>Any representation of information such as a chart, diagram or table. Multiple views of the same information are possible, such as a bar chart for management and a tabular view for accountants.</p>
+<h3 id="controller">Controller</h3>
+<p>Accepts input and converts it to commands for the model or view.</p>
+
+<h3 id="example">Example</h3>
+
+<p><img src="https://github.com/chackydude/todo.js/raw/master/example.png" alt="example of the app" /></p>
+
+<p>Here you can see what you can add, edit and remove notes from the notebook. Backend is written with using NodeJS (npm for package managing), and here I tried to use webpack to manage client(front-end) dependencies.</p>
+
+<p>(https://chackydude.github.io/todo.js/public/index.html)</p>
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>

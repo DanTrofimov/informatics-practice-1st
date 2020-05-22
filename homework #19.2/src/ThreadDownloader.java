@@ -23,7 +23,7 @@ public class ThreadDownloader extends Thread {
             File file = new File("D:\\GitHub\\rogue\\beginner-javascript\\snippets\\REMOTE\\homework #19.2 (Thread)\\src\\parsed");
             BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file.getPath())));;
             URLConnection connection = url.openConnection();
-            BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
+            BufferedReader  reader = new BufferedReader(new InputStreamReader(connection.getInputStream()));
             String currentLine;
             int counter = 0;
             while ((currentLine = reader.readLine()) != null) {

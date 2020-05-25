@@ -21,7 +21,7 @@ public class ThreadDownload extends Thread {
             String[] types = type.split("[/;]");
             path = path + (Math.random() * 10)  + "." + types[1];
             OutputStream out = new FileOutputStream(path);
-            ByteBuffer buf = ByteBuffer.allocate(5000);
+            ByteBuffer buf = ByteBuffer.allocate(6000);
             while (in.available() > 0 ){
                 if (!(isInterrupted())) {
                     for (int i = 0; i < 6000; i++){

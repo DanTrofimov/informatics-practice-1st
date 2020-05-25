@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>
-    Archives | CSS-Tricks  </title>
+    CSS-Tricks  </title>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="msapplication-TileColor" content="#00aba9">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
@@ -23,25 +23,25 @@
 <link rel="preconnect" href="https://static.codepen.io">
 <link rel="dns-prefetch" href="https://static.codepen.io">
 
+<meta name="description" content="Daily articles about CSS, HTML, JavaScript, and all things related to web design and development." />
 <meta name="robots" content="index, follow" />
 <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
 <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-<link rel="canonical" href="https://css-tricks.com/archives/" />
+<link rel="canonical" href="https://css-tricks.com/" />
+<link rel="next" href="https://css-tricks.com/page/2/" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="Archives | CSS-Tricks" />
-<meta property="og:url" content="https://css-tricks.com/archives/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="CSS-Tricks" />
+<meta property="og:description" content="CSS-Tricks is a website about websites." />
+<meta property="og:url" content="https://css-tricks.com/" />
 <meta property="og:site_name" content="CSS-Tricks" />
-<meta property="article:publisher" content="https://www.facebook.com/CSSTricks" />
-<meta property="article:modified_time" content="2015-02-25T22:28:38+00:00" />
+<meta property="og:image" content="https://css-tricks.com/wp-content/uploads/2014/03/css-tricks-star.png" />
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:creator" content="@chriscoyier" />
 <meta name="twitter:site" content="@CSS" />
-<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://css-tricks.com/#organization","name":"CSS-Tricks","url":"https://css-tricks.com/","sameAs":["https://www.facebook.com/CSSTricks","https://twitter.com/CSS"],"logo":{"@type":"ImageObject","@id":"https://css-tricks.com/#logo","inLanguage":"en-US","url":"https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/06/akqRGyta_400x400.jpg?ssl=1","caption":"CSS-Tricks"},"image":{"@id":"https://css-tricks.com/#logo"}},{"@type":"WebSite","@id":"https://css-tricks.com/#website","url":"https://css-tricks.com/","name":"CSS-Tricks","description":"Tips, Tricks, and Techniques on using Cascading Style Sheets.","publisher":{"@id":"https://css-tricks.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://css-tricks.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"WebPage","@id":"https://css-tricks.com/archives/#webpage","url":"https://css-tricks.com/archives/","name":"Archives | CSS-Tricks","isPartOf":{"@id":"https://css-tricks.com/#website"},"datePublished":"2008-04-17T00:14:42+00:00","dateModified":"2015-02-25T22:28:38+00:00","breadcrumb":{"@id":"https://css-tricks.com/archives/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://css-tricks.com/archives/"]}]},{"@type":"BreadcrumbList","@id":"https://css-tricks.com/archives/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"item":{"@type":"WebPage","@id":"https://css-tricks.com/","url":"https://css-tricks.com/","name":"Home"}},{"@type":"ListItem","position":2,"item":{"@type":"WebPage","@id":"https://css-tricks.com/archives/","url":"https://css-tricks.com/archives/","name":"Archives"}}]}]}</script>
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://css-tricks.com/#organization","name":"CSS-Tricks","url":"https://css-tricks.com/","sameAs":["https://www.facebook.com/CSSTricks","https://twitter.com/CSS"],"logo":{"@type":"ImageObject","@id":"https://css-tricks.com/#logo","inLanguage":"en-US","url":"https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/06/akqRGyta_400x400.jpg?ssl=1","caption":"CSS-Tricks"},"image":{"@id":"https://css-tricks.com/#logo"}},{"@type":"WebSite","@id":"https://css-tricks.com/#website","url":"https://css-tricks.com/","name":"CSS-Tricks","description":"Tips, Tricks, and Techniques on using Cascading Style Sheets.","publisher":{"@id":"https://css-tricks.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://css-tricks.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"CollectionPage","@id":"https://css-tricks.com/#webpage","url":"https://css-tricks.com/","name":"CSS-Tricks","isPartOf":{"@id":"https://css-tricks.com/#website"},"about":{"@id":"https://css-tricks.com/#organization"},"description":"Daily articles about CSS, HTML, JavaScript, and all things related to web design and development.","inLanguage":"en-US"}]}</script>
 
 <script>window._wca = window._wca || [];</script>
 <link rel='dns-prefetch' href='//stats.wp.com' />
-<link rel="alternate" type="application/rss+xml" title="CSS-Tricks &raquo; Archives Comments Feed" href="https://css-tricks.com/archives/feed/" />
 <link rel='stylesheet' id='wc-block-style-css' href='https://css-tricks.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/style.css?ver=2.5.16' type='text/css' media='all' />
 <style id='woocommerce-inline-inline-css' type='text/css'>
 .woocommerce form .form-row .required { visibility: visible; }
@@ -50,11 +50,11 @@
 <link rel='stylesheet' id='jetpack-instant-search-css' href='https://css-tricks.com/wp-content/plugins/jetpack/_inc/build/instant-search/instant-search.min.css?ver=8.5' type='text/css' media='all' />
 <script async src='https://stats.wp.com/s-202021.js'></script>
 <link rel='https://api.w.org/' href='https://css-tricks.com/wp-json/' />
-<link rel='shortlink' href='https://css-tricks.com/?p=707' />
-<link rel="alternate" type="application/json+oembed" href="https://css-tricks.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcss-tricks.com%2Farchives%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://css-tricks.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fcss-tricks.com%2Farchives%2F&#038;format=xml" />
 
 <meta name="generator" content="Site Kit by Google 1.8.1" />
+<style type="text/css" media="all">
+
+</style>
 <link rel='dns-prefetch' href='//i0.wp.com' />
 <link rel='dns-prefetch' href='//i1.wp.com' />
 <link rel='dns-prefetch' href='//i2.wp.com' />
@@ -71,7 +71,7 @@
 				);
 			</script>
 </head>
-<body class="page-template page-template-new-archive page-template-new-archive-php page page-id-707 theme-CSS-Tricks-17 woocommerce-no-js" id="top">
+<body class="home blog theme-CSS-Tricks-17 woocommerce-no-js" id="top">
 <a id="skip-nav" class="skip-nav screen-reader-text" href="#maincontent">Skip to main content</a>
 <div id="top-of-site-pixel-anchor"></div>
 <header class="site-header" id="site-header">
@@ -220,123 +220,31 @@
 </div>
 </header>
 <div class="all-site-wrap" id="all-site-wrap">
-<svg viewBox="0 0 624 443" class="blob-top-right">
-<path d="M260 -0.99952C160.589 -0.999515 80 79.5892 80 179.001C80 278.412 160.589 359.001 260 359.001L624 359L624 -0.999535L260 -0.99952Z" fill="url(#orange-to-pink)" />
-</svg>
-<svg viewBox="0 0 500 500" class="blob-circle">
-<circle cx="250" cy="250" r="250" fill="url(#orange-to-pink)" />
-</svg>
-<svg viewBox="0 0 500 500" class="blob-circle-small">
-<circle cx="250" cy="250" r="250" />
-</svg>
-<circle-text r="70" class="circle-text-archive">
-CSS is fun and cool and I like it.
-</circle-text>
-<header class="page-header" id="maincontent">
-<h1>Articles
-</h1>
-<p class="page-intro-p bold-underline-links">C'mon in. Make yourself at home. Stay a while. Other things welcoming people say. Just starting out? Check out our <a href="/guides/beginner/">beginner's guide</a>.</p>
-<div class="page-header-top-nav">
-<div class="page-header-top-nav-inside top-nav-archives">
-<form id="select-navigator" class="select-navigator" action="">
-<select name="select-navigator-select" id="select-navigator-select" class="custom-select">
-<option value="/archives/">Top Tags</option>
-<option value='https://css-tricks.com/tag/svg/'>SVG</option><option value='https://css-tricks.com/tag/javascript/'>JavaScript</option><option value='https://css-tricks.com/tag/accessibility/'>accessibility</option><option value='https://css-tricks.com/tag/react/'>react</option><option value='https://css-tricks.com/tag/performance/'>performance</option><option value='https://css-tricks.com/tag/wordpress/'>WordPress</option><option value='https://css-tricks.com/tag/grid/'>grid</option><option value='https://css-tricks.com/tag/animation/'>animation</option><option value='https://css-tricks.com/tag/jquery/'>jQuery</option><option value='https://css-tricks.com/tag/vue/'>vue</option><option value='https://css-tricks.com/tag/forms/'>forms</option><option value='https://css-tricks.com/tag/custom-properties/'>custom properties</option><option value='https://css-tricks.com/tag/css/'>CSS</option><option value='https://css-tricks.com/tag/typography/'>typography</option><option value='https://css-tricks.com/tag/sass/'>Sass</option><option value='https://css-tricks.com/tag/serverless/'>serverless</option><option value='https://css-tricks.com/tag/responsive-images/'>responsive images</option><option value='https://css-tricks.com/tag/images/'>images</option><option value='https://css-tricks.com/tag/learning/'>learning</option><option value='https://css-tricks.com/tag/flexbox/'>flexbox</option> </select>
-</form>
-<span class="number-of-articles">
-6350 Articles
-</span>
-<button class="button-invisible sorting-button" id="sorting-button">
-Sorting <span class="down-arrow"><svg viewBox="0 0 24 24" class="icon-arrow-right" xmlns="http://www.w3.org/2000/svg">
-<path d="M7 12.5L23 12.5" stroke="url(#paint0_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-<path d="M1 12.5H2" stroke="url(#paint1_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-<path d="M17.5 7L23 12.5L17.5 18" stroke="url(#paint2_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-<defs>
-<linearGradient id="paint0_linear" x1="10.7498" y1="12.5" x2="11.3447" y2="9.73465" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF8A00" />
-<stop offset="1" stop-color="#DA1B60" />
-</linearGradient>
-<linearGradient id="paint1_linear" x1="1.23436" y1="12.5" x2="2.00945" y2="12.2748" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF8A00" />
-<stop offset="1" stop-color="#DA1B60" />
-</linearGradient>
-<linearGradient id="paint2_linear" x1="18.789" y1="17.9995" x2="23.3162" y2="17.3419" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF8A00" />
-<stop offset="1" stop-color="#DA1B60" />
-</linearGradient>
-</defs>
-</svg>
-</span>
-</button>
-<form action="" id="sorting-controls" class="sorting-controls">
-{<br>
-<label for="order">&nbsp;&nbsp;'order' => &nbsp;</label>
-<select name="order" id="order" class="custom-select">
-<option selected value="DESC">DESC</option>
-<option value="ASC">ASC</option>
-</select>,<br>
-<label for="orderby">&nbsp;&nbsp;'orderby' => </label>
-<select name="orderby" id="orderby" class="custom-select">
-<option value="date">date</option>
-<option value="modified">modified</option>
-<option value="rand">rand</option>
-<option value="comment_count">comment_count</option>
-</select>
-<br>
-}
-</form>
-</div>
-</div>
-</header>
-<main class="page-wrap page-wrap-archives page-wrap-max-width">
-<div class="articles-and-rail">
-<aside class="entry-unrelated sidebar">
-<div id="all-ads">
-<div id="scroll-ad-position"></div>
-<div id="sticky-sidebar-stuff">
-<div id="conditional-message">
-<div class="fem-ad fem-sidebar-ad">
-<div class="fem-header">
-<div class="fem-header-inner">
-<div class="fem-learning-partner">
-Our Learning Partner
-</div>
-<a href="https://frontendmasters.com/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar"><img src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1578251803/FEM-sidebar-Generic_dipjef.png" alt="Frontend Masters logo" class="fem-logo" /></a>
-</div>
-</div>
-<svg class="fem-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><defs><linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c02d28"></stop><stop offset="100%" stop-color="#e66225"></stop></linearGradient></defs><polygon points="0,2 0,0 100,0 100,10" fill="url(#linear)"></polygon></svg>
-<div class="fem-message">
-<h4>Need some front-end development training?</h4>
-<p><a href="https://frontendmasters.com/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">Frontend Masters</a> is the best place to get it. They have courses on all the most important front-end technologies, from <a href="https://frontendmasters.com/learn/react/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">React</a> to <a href="https://frontendmasters.com/learn/css/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">CSS</a>, from <a href="https://frontendmasters.com/learn/vue/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">Vue</a> to <a href="https://frontendmasters.com/learn/d3-js/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">D3</a>, and beyond with <a href="https://frontendmasters.com/learn/node-js/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">Node.js</a> and <a href="https://frontendmasters.com/learn/fullstack/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">Full Stack</a>.</p>
-</div>
-</div>
-</div> </div>
-</div>
-</aside>
-<div class="articles">
-<article class="article-card module module-article article" id="post-311360">
+<main class="page-wrap page-wrap-home" id="maincontent">
+<article class="hero-article">
 <style>
-    #post-311360::after {
-      content: "";
-      position: absolute; top: 0; right: 0; width: 80%; height: 80%;
-      background-image: 
-        radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.75), #100e17),
-        url(https://res.cloudinary.com/css-tricks/image/fetch/w_1200,q_auto,f_auto/https://css-tricks.com/wp-content/uploads/2019/08/website-lightning.png);
-      background-size: cover;
-      background-repeat: no-repeat;
-      opacity: 0.75;
-    }
-  </style>
-<div class="article-article">
+      .hero-article::after {
+        content: "";
+        position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+        z-index: -1;
+        background-image: 
+          radial-gradient(ellipse closest-side, rgba(15, 14, 22, 0.75), #100e17),
+          url(https://res.cloudinary.com/css-tricks/image/fetch/w_1200,q_auto,f_auto/https://css-tricks.com/wp-content/uploads/2019/08/website-lightning.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        opacity: 0.75;
+      }
+    </style>
+<div class="hero-article-article">
 <header class="article-publication-meta">
-<strong>Article</strong>
+<strong>Fresh Article</strong>
 <time datetime="2020-05-22">
 May 22, 2020 </time>
 </header>
-<h2>
+<h1>
 <a href="https://css-tricks.com/the-modern-web/">
 &#8220;The Modern Web&#8221; </a>
-</h2>
+</h1>
 <div class="article-content-meta">
 <div class="author-avatar">
 <a href="https://css-tricks.com/author/chriscoyier/">
@@ -385,9 +293,398 @@ Start Conversation
 <div class="tags">
 <a href="https://css-tricks.com/tag/performance/" rel="tag">performance</a> <a href="https://css-tricks.com/tag/react/" rel="tag">react</a> <a href="https://css-tricks.com/tag/static-sites/" rel="tag">static sites</a> </div>
 </div>
+<div class="hero-article-ad" id="hero-article-ad">
+</div>
 </article>
+<div class="popular-articles">
+<header class="popular-header header-card white-underline-links">
+<h2 class="header-card-title">
+Popular <br>this <br>month
+</h2>
+<p class="header-card-sponsor">Sponsored by<br>
+<a href="https://frontendmasters.com/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-monthly-site-sponsor">Frontend Masters</a>
+</p>
+</header>
+<div class="mini-card-grid">
+<article class="mini-card module module-article article" id="mini-post-306971">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-24">
+Apr 24, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/how-to-make-a-css-only-carousel/" class="article-card-header read-article">
+How to Make a CSS-Only Carousel </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/robinrendle/">
+<img alt class="avatar avatar-80 photo avatar-default jetpack-lazy-image" height="80" src="https://css-tricks.com/wp-content/uploads/2019/01/me-black-white-80x80.jpg" width="80" data-lazy-src="https://css-tricks.com/wp-content/uploads/2019/01/me-black-white-80x80.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt="" class="avatar avatar-80 photo avatar-default" height="80" src="https://css-tricks.com/wp-content/uploads/2019/01/me-black-white-80x80.jpg" width="80"></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/robinrendle/">
+Robin Rendle </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/carousel/" rel="tag">carousel</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-306644">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-24">
+Apr 24, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/" class="article-card-header read-article">
+SVG, Favicons, and All the Fun Things We Can Do With Them </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/ericwbailey/">
+<img alt src="https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/ericwbailey/">
+Eric Bailey </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/dark-mode/" rel="tag">dark mode</a> <a href="https://css-tricks.com/tag/favicon/" rel="tag">favicon</a> <a href="https://css-tricks.com/tag/media-queries/" rel="tag">media queries</a> <a href="https://css-tricks.com/tag/svg/" rel="tag">SVG</a> <a href="https://css-tricks.com/tag/svg-icons/" rel="tag">svg icons</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-306182">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-20">
+Apr 20, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/creating-playful-effects-with-css-text-shadows/" class="article-card-header read-article">
+Creating Playful Effects With CSS Text Shadows </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/sarahfossheim/">
+<img alt src="https://secure.gravatar.com/avatar/448d5e0f71e6b2712d853a6e5f219504?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/448d5e0f71e6b2712d853a6e5f219504?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/448d5e0f71e6b2712d853a6e5f219504?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/448d5e0f71e6b2712d853a6e5f219504?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/448d5e0f71e6b2712d853a6e5f219504?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/sarahfossheim/">
+Sarah Fossheim </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/text-effect/" rel="tag">text effect</a> <a href="https://css-tricks.com/tag/text-shadow/" rel="tag">text-shadow</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-306747">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-27">
+Apr 27, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/advice-for-writing-a-technical-resume/" class="article-card-header read-article">
+Advice for Writing a Technical Resume </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/sdrasner/">
+<img alt src="https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/sdrasner/">
+Sarah Drasner </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/cover-letters/" rel="tag">cover letters</a> <a href="https://css-tricks.com/tag/job-searching/" rel="tag">job searching</a> <a href="https://css-tricks.com/tag/resume/" rel="tag">resume</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-306222">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-23">
+Apr 23, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/accessible-font-sizing-explained/" class="article-card-header read-article">
+Accessible Font Sizing, Explained </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/agalante/">
+<img alt class="avatar avatar-80 photo avatar-default jetpack-lazy-image" height="80" src="https://css-tricks.com/wp-content/uploads/2017/04/Ando1-80x80.jpg" width="80" data-lazy-src="https://css-tricks.com/wp-content/uploads/2017/04/Ando1-80x80.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt="" class="avatar avatar-80 photo avatar-default" height="80" src="https://css-tricks.com/wp-content/uploads/2017/04/Ando1-80x80.jpg" width="80"></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/agalante/">
+Andrés Galante </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/accessibility/" rel="tag">accessibility</a> <a href="https://css-tricks.com/tag/font-size/" rel="tag">font-size</a> <a href="https://css-tricks.com/tag/user-agent-stylesheets/" rel="tag">user agent stylesheets</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-306387">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-17">
+Apr 17, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/better-form-inputs-for-better-mobile-user-experiences/" class="article-card-header read-article">
+Better Form Inputs for Better Mobile User Experiences </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/alexholachek/">
+<img alt class="avatar avatar-80 photo avatar-default jetpack-lazy-image" height="80" src="https://css-tricks.com/wp-content/uploads/2018/06/Qapq7DoW_400x400-80x80.jpg" width="80" data-lazy-src="https://css-tricks.com/wp-content/uploads/2018/06/Qapq7DoW_400x400-80x80.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt="" class="avatar avatar-80 photo avatar-default" height="80" src="https://css-tricks.com/wp-content/uploads/2018/06/Qapq7DoW_400x400-80x80.jpg" width="80"></noscript>  </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/alexholachek/">
+Alex Holachek </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/autocomplete/" rel="tag">autocomplete</a> <a href="https://css-tricks.com/tag/forms/" rel="tag">forms</a> <a href="https://css-tricks.com/tag/inputmode/" rel="tag">inputmode</a> <a href="https://css-tricks.com/tag/inputs/" rel="tag">inputs</a> <a href="https://css-tricks.com/tag/ux/" rel="tag">ux</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-307668">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-05-04">
+May 4, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/complete-guide-to-css-functions/" class="article-card-header read-article">
+A Complete Guide to CSS Functions </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/ericwbailey/">
+<img alt src="https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/188a9d4deb76ac6e69c7f65358897476?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/ericwbailey/">
+Eric Bailey </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/functions/" rel="tag">functions</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-305723">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-14">
+Apr 14, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/using-css-to-set-text-inside-a-circle/" class="article-card-header read-article">
+Using CSS to Set Text Inside a Circle </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/kerrysmyth/">
+<img alt class="avatar avatar-80 photo avatar-default jetpack-lazy-image" height="80" src="https://css-tricks.com/wp-content/uploads/2020/03/kerry-smyth-160px-80x80.jpg" width="80" data-lazy-src="https://css-tricks.com/wp-content/uploads/2020/03/kerry-smyth-160px-80x80.jpg?is-pending-load=1" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt="" class="avatar avatar-80 photo avatar-default" height="80" src="https://css-tricks.com/wp-content/uploads/2020/03/kerry-smyth-160px-80x80.jpg" width="80"></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/kerrysmyth/">
+Kerry Smyth </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/blockquote/" rel="tag">blockquote</a> <a href="https://css-tricks.com/tag/shape-outside/" rel="tag">shape-outside</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-305681">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-07">
+Apr 7, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/how-to-re-create-a-nifty-netflix-animation-in-css/" class="article-card-header read-article">
+How to Re-Create a Nifty Netflix Animation in CSS </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/chrisgeelhoed/">
+<img alt src="https://secure.gravatar.com/avatar/198ca0afaecca805a9f0a26dc8c7f85c?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/198ca0afaecca805a9f0a26dc8c7f85c?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/198ca0afaecca805a9f0a26dc8c7f85c?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/198ca0afaecca805a9f0a26dc8c7f85c?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/198ca0afaecca805a9f0a26dc8c7f85c?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/chrisgeelhoed/">
+Chris Geelhoed </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/css-animation/" rel="tag">css animation</a> <a href="https://css-tricks.com/tag/transform/" rel="tag">transform</a> </div>
+</div>
+</article>
+<article class="mini-card module module-article article" id="mini-post-306022">
+<header class="mini-article-card-header">
+<div class="mini-article-card-title">
+<div class="mini-article-subhead">
+Article
+<time datetime="2020-04-06">
+Apr 6, 2020 </time>
+</div>
+<h2 class="">
+<a href="https://css-tricks.com/a-grid-of-logos-in-squares/" class="article-card-header read-article">
+A Grid of Logos in Squares </a>
+</h2>
+</div>
+</header>
+<div class="mini-article-meta">
+<div class="mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+<img alt src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+Chris Coyier </a>
+</div>
+</div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/aspect-ratio/" rel="tag">aspect ratio</a> <a href="https://css-tricks.com/tag/grid/" rel="tag">grid</a> </div>
+</div>
+</article>
+</div>
+</div>
+<div class="articles-and-rail">
+<aside class="entry-unrelated sidebar">
+<div id="all-ads">
+<div id="scroll-ad-position"></div>
+<div id="sticky-sidebar-stuff">
+<div id="conditional-message">
+<div class="fem-ad fem-sidebar-ad">
+<div class="fem-header">
+<div class="fem-header-inner">
+<div class="fem-learning-partner">
+Our Learning Partner
+</div>
+<a href="https://frontendmasters.com/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar"><img src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1578251803/FEM-sidebar-Generic_dipjef.png" alt="Frontend Masters logo" class="fem-logo" /></a>
+</div>
+</div>
+<svg class="fem-diagonal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10" preserveAspectRatio="none"><defs><linearGradient id="linear" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#c02d28"></stop><stop offset="100%" stop-color="#e66225"></stop></linearGradient></defs><polygon points="0,2 0,0 100,0 100,10" fill="url(#linear)"></polygon></svg>
+<div class="fem-message">
+<h4>Need some front-end development training?</h4>
+<p><a href="https://frontendmasters.com/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">Frontend Masters</a> is the best place to get it. They have courses on all the most important front-end technologies, from <a href="https://frontendmasters.com/learn/react/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">React</a> to <a href="https://frontendmasters.com/learn/css/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">CSS</a>, from <a href="https://frontendmasters.com/learn/vue/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">Vue</a> to <a href="https://frontendmasters.com/learn/d3-js/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">D3</a>, and beyond with <a href="https://frontendmasters.com/learn/node-js/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">Node.js</a> and <a href="https://frontendmasters.com/learn/fullstack/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-tags-sidebar">Full Stack</a>.</p>
+</div>
+</div>
+</div> </div>
+</div>
+</aside>
+<div class="articles">
 <article class="article-card module module-article article" id="post-308477">
- <style>
+<style>
     #post-308477::after {
       content: "";
       position: absolute; top: 0; right: 0; width: 80%; height: 80%;
@@ -457,9 +754,6 @@ Join Conversation
 <a href="https://css-tricks.com/tag/apple/" rel="tag">apple</a> <a href="https://css-tricks.com/tag/canvas/" rel="tag">canvas</a> <a href="https://css-tricks.com/tag/preload/" rel="tag">preload</a> <a href="https://css-tricks.com/tag/requestanimationframe/" rel="tag">requestAnimationFrame</a> </div>
 </div>
 </article>
-<div class="bsap-doubles side-by-side">
-<div id="bsap_1250418" class="bsarocks bsap_3469a2a501a9e18091036aa0c89f9dcb"></div>
-</div>
 <article class="article-card module module-article link" id="post-311329">
 <style>
     #post-311329::after {
@@ -682,6 +976,9 @@ Join Conversation
 <p>My brain still reaches for flexbox in that situation, and with <code>gap</code>, it probably will continue to do so. It&#8217;s worth noting though that grid can do the same thing in its own special way. &hellip; <a href="https://css-tricks.com/flexbox-like-just-put-elements-in-a-row-with-css-grid/" class="read-more">Read article <span class="screen-reader-text"> &#8220;Flexbox-like &#8220;just put elements in a row&#8221; with CSS grid&#8221;</span></a></p> </div>
 </div>
 </article>
+<div class="bsap-doubles side-by-side">
+<div id="bsap_1250418" class="bsarocks bsap_3469a2a501a9e18091036aa0c89f9dcb"></div>
+</div>
 <article class="article-card module module-article article" id="post-307746">
 <style>
     #post-307746::after {
@@ -1000,21 +1297,355 @@ Start Conversation
 <a href="https://css-tricks.com/tag/wordpress/" rel="tag">WordPress</a> <a href="https://css-tricks.com/tag/wordpress-blocks/" rel="tag">WordPress blocks</a> </div>
 </div>
 </article>
+<article class="article-card module module-article article" id="post-308141">
+<style>
+    #post-308141::after {
+      content: "";
+      position: absolute; top: 0; right: 0; width: 80%; height: 80%;
+      background-image: 
+        radial-gradient(ellipse closest-side, rgba(0, 0, 0, 0.75), #100e17),
+        url(https://res.cloudinary.com/css-tricks/image/fetch/w_1200,q_auto,f_auto/https://css-tricks.com/wp-content/uploads/2020/05/chrome-web-store-extensions.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      opacity: 0.75;
+    }
+  </style>
+<div class="article-article">
+<header class="article-publication-meta">
+<strong>Article</strong>
+<time datetime="2020-05-19">
+May 19, 2020 </time>
+</header>
+<h2>
+<a href="https://css-tricks.com/how-to-build-a-chrome-extension/">
+How to Build a Chrome Extension </a>
+</h2>
+<div class="article-content-meta">
+<div class="author-avatar">
+<a href="https://css-tricks.com/author/sdrasner/">
+<img alt="Avatar of Sarah Drasner" src="https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=80&#038;d=retro&#038;r=pg" srcset="https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=160&#038;d=retro&#038;r=pg 2x" class="avatar avatar-80 photo skip-lazy" height="80" width="80"><noscript><img alt='Avatar of Sarah Drasner' src='https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/48cfd8342f9b9e5b7970f63afb0a8ee3?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo skip-lazy' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/sdrasner/">
+Sarah Drasner </a>
+</div>
+<div class="article-comments-meta">
+<div class="comments-prefix">
+7 Comments </div>
+<a class="comments-link" href="https://css-tricks.com/how-to-build-a-chrome-extension/#comments">
+Join Conversation
+<svg viewBox="0 0 24 24" class="icon-arrow-right" xmlns="http://www.w3.org/2000/svg">
+<path d="M7 12.5L23 12.5" stroke="url(#paint0_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1 12.5H2" stroke="url(#paint1_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M17.5 7L23 12.5L17.5 18" stroke="url(#paint2_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<defs>
+<linearGradient id="paint0_linear" x1="10.7498" y1="12.5" x2="11.3447" y2="9.73465" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8A00" />
+<stop offset="1" stop-color="#DA1B60" />
+</linearGradient>
+<linearGradient id="paint1_linear" x1="1.23436" y1="12.5" x2="2.00945" y2="12.2748" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8A00" />
+<stop offset="1" stop-color="#DA1B60" />
+</linearGradient>
+<linearGradient id="paint2_linear" x1="18.789" y1="17.9995" x2="23.3162" y2="17.3419" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF8A00" />
+<stop offset="1" stop-color="#DA1B60" />
+</linearGradient>
+</defs>
+</svg>
+</a>
 </div>
 </div>
-<nav class="breadcrumbs">
-<div class='wp_page_numbers'>
-<ul><li class="breadcrumbs-prev-page"></li><li class="active_page"><a href="https://css-tricks.com/archives/">1</a></li>
-<li><a href="https://css-tricks.com/archives/page/2/">2</a></li>
-<li><a href="https://css-tricks.com/archives/page/3/">3</a></li>
-<li class="space">...</li>
-<li class="first_last_page"><a href="https://css-tricks.com/archives/page/635/">635</a></li>
-<li class="breadcrumbs-next-page"><a href="https://css-tricks.com/archives/page/2/">Older <img src="/wp-content/themes/CSS-Tricks-17/icons/singles/icon-arrow-right.svg" class="pagination-arrow pagination-arrow-right" alt=""></a></li>
-</ul>
-<div style='float: none; clear: both;'></div>
+<div class="article-content">
+<p>I made a Chrome extension this weekend because I found I was doing the same task over and over and wanted to automate it. Plus, I’m a nerd living through a pandemic, so I spend my pent-up energy building things. I&#8217;ve made a few Chrome Extensions over the years, hope this post helps you get going, too. Let’s get started!&hellip; <a href="https://css-tricks.com/how-to-build-a-chrome-extension/" class="read-more">Read article <span class="screen-reader-text"> &#8220;How to Build a Chrome Extension&#8221;</span></a></p> </div>
+<div class="tags">
+<a href="https://css-tricks.com/tag/browser-extension/" rel="tag">browser extension</a> <a href="https://css-tricks.com/tag/browser-functionality/" rel="tag">browser functionality</a> <a href="https://css-tricks.com/tag/chrome/" rel="tag">chrome</a> <a href="https://css-tricks.com/tag/chrome-store/" rel="tag">chrome store</a> <a href="https://css-tricks.com/tag/manifest/" rel="tag">manifest</a> </div>
 </div>
-</nav>
+</article>
+<a href="/archives/page/2/" class="button button-full-width">Keep browsing in the archives</a>
+</div>
+</div>
 </main>
+<div class="monthly-mixup">
+<h2>
+Monthly Mixup
+</h2>
+<svg class="mixup-background-star" width="35px" height="35px">
+<use xlink:href="#icon-logo-star"></use>
+</svg>
+<div class="mixup-card mixup-category-article">
+<div class="mixup-card-header">
+Article
+<time datetime="2017-12-14">
+Dec 14, 2017 </time>
+</div>
+<h3>
+<a href="https://css-tricks.com/accessibility-testing-tools/" class="article-card-header read-article">
+Accessibility Testing Tools </a>
+</h3>
+<div class="mini-article-meta mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+<img alt src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+Chris Coyier </a>
+</div>
+</div>
+</div>
+<div class="mixup-card mixup-category-">
+<header class="mixup-card-header mixup-card-header-video">
+Video
+<time datetime="2018-07-06">
+Jul 6, 2018 </time>
+</header>
+<h3 class="mixup-card-title-video">
+<a href="https://css-tricks.com/video-screencasts/163-first-steps-with-serverless/">
+<span>
+<span class="video-number">
+#163 </span>
+First Steps with Serverless </span>
+<span class="watch-video-button">
+<svg class="icon-play" width="35px" height="35px">
+<use xlink:href="#icon-play"></use>
+</svg>
+<div>
+<time>Running Time: <span>21:36</span></time>
+</div>
+</span>
+</a>
+</h3>
+</div>
+<div class="mixup-card mixup-category-">
+<a href="https://css-tricks.com/almanac/selectors/p/placeholder-shown/" class="almanac-example">
+<code class="language-css">input:placeholder-shown { border: 5px solid red; }</code>
+</a>
+</div>
+<div class="mixup-card mixup-category-article">
+<div class="mixup-card-header">
+Article
+<time datetime="2016-09-26">
+Sep 26, 2016 </time>
+</div>
+<h3>
+<a href="https://css-tricks.com/methods-controlling-spacing-web-typography/" class="article-card-header read-article">
+Methods for Controlling Spacing in Web Typography </a>
+</h3>
+<div class="mini-article-meta mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/geoffgraham/">
+<img alt src="https://secure.gravatar.com/avatar/ac0d6274a6cea04669e66a20ec0ea204?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/ac0d6274a6cea04669e66a20ec0ea204?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/ac0d6274a6cea04669e66a20ec0ea204?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/ac0d6274a6cea04669e66a20ec0ea204?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/ac0d6274a6cea04669e66a20ec0ea204?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/geoffgraham/">
+Geoff Graham </a>
+</div>
+</div>
+</div>
+<div class="mixup-card mixup-category-">
+<a href="https://css-tricks.com/almanac/selectors/e/enabled/" class="almanac-example">
+<code class="language-css">input:enabled + label { color: #333; }</code>
+</a>
+</div>
+<div class="mixup-card mixup-category-article">
+<div class="mixup-card-header">
+Article
+<time datetime="2016-01-15">
+Jan 15, 2016 </time>
+</div>
+<h3>
+<a href="https://css-tricks.com/designing-a-product-page-layout-with-flexbox/" class="article-card-header read-article">
+Designing A Product Page Layout with Flexbox </a>
+</h3>
+<div class="mini-article-meta mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/levin-mejia/">
+<img alt src="https://secure.gravatar.com/avatar/e7a85bfc3e864da5dafd2ea71f03d49f?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/e7a85bfc3e864da5dafd2ea71f03d49f?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/e7a85bfc3e864da5dafd2ea71f03d49f?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/e7a85bfc3e864da5dafd2ea71f03d49f?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/e7a85bfc3e864da5dafd2ea71f03d49f?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/levin-mejia/">
+Levin Mejia </a>
+</div>
+</div>
+</div>
+<div class="mixup-card mixup-category-">
+<header class="mixup-card-header">
+Snippet
+<time datetime="2012-01-31">
+Jan 31, 2012 </time>
+</header>
+<h3>
+<a href="https://css-tricks.com/snippets/css/layered-paper/">Layered Paper</a>
+</h3>
+<div class="mini-article-meta mini-article-byline">
+<div class="author-avatar">
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+<img alt src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&#038;d=retro&#038;r=pg" class="avatar avatar-80 photo jetpack-lazy-image" height="80" width="80" data-lazy-srcset="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&#038;d=retro&#038;r=pg 2x" data-lazy-src="https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&amp;is-pending-load=1#038;d=retro&#038;r=pg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"><noscript><img alt='' src='https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=80&#038;d=retro&#038;r=pg' srcset='https://secure.gravatar.com/avatar/8081b26e05bb4354f7d65ffc34cbbd67?s=160&#038;d=retro&#038;r=pg 2x' class='avatar avatar-80 photo' height='80' width='80' /></noscript> </a>
+<svg class="half-circle" width="80px" height="80px">
+<use xlink:href="#half-circle"></use>
+</svg>
+</div>
+<div class="author-name-area">
+<div class="author-name-prefix">
+Author
+</div>
+<a class="author-name" href="https://css-tricks.com/author/chriscoyier/">
+Chris Coyier </a>
+</div>
+</div>
+</div>
+<div class="mixup-card mixup-card-sponsor">
+<div class="monthly-sponsor-text">
+<div class="subhead">Monthly Sponsor</div>
+<h5>Thanks, <a href="https://frontendmasters.com/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-monthly-site-sponsor">Frontend Masters!</a></h5>
+<p class="bold-underline-links">
+Take your JavaScript to the next level and find out what it’s fully capable of with the JavaScript path on <a href="https://frontendmasters.com/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-monthly-site-sponsor">Frontend Masters</a>.
+</p>
+</div>
+<div class="monthly-sponsor-image">
+<a href="https://frontendmasters.com/?utm_source=css-tricks&utm_medium=website&utm_campaign=css-tricks-monthly-site-sponsor">
+<img src="https://res.cloudinary.com/css-tricks/image/upload/f_auto,q_auto/v1580398871/fem-m_aqgbfh.png" alt="Frontend Masters logo" style="width: 100%;">
+</a>
+</div>
+</div>
+<div class="mixup-design-card-1"></div>
+<div class="mixup-design-card-2"></div>
+<div class="mixup-design-card-3"></div>
+</div>
+<div class="footer-jobs-wrapper">
+<div class="footer-jobs">
+<header class="footer-jobs-header">
+<h2 class="header-card-title">
+Browse&nbsp;<br>the Jobs
+</h2>
+<p class="bold-underline-links">
+Powered by<br>
+<a href="https://codepen.io/jobs/">
+CodePen Jobs
+</a>
+</p>
+<a href="/jobs/" class="button button-full-width button-small">
+Post a Job
+</a>
+<a href="/jobs/" class="button button-outline button-full-width button-small">
+See more Jobs
+</a>
+</header>
+<ul class="job-list">
+<li>
+<a href="https://www.linkedin.com/jobs/cap/view/1819508750/?pathWildcard=1819508750&trk=mcm">
+<div class="job-info">
+<strong>
+LeetCode </strong>
+is hiring a
+Font End Developer II </div>
+<address>
+<svg class="icon-pin" width="16px" height="16px">
+<use xlink:href="#icon-pin"></use>
+</svg>
+Shanghai, China </address>
+</a>
+</li>
+<li>
+<a href="https://www.gravityworksdesign.com/careers/front-end-developer/">
+<div class="job-info">
+<strong>
+Gravity Works Design &amp; Development </strong>
+is hiring a
+Front-End Developer </div>
+<address>
+<svg class="icon-pin" width="16px" height="16px">
+<use xlink:href="#icon-pin"></use>
+</svg>
+Remote
+</address>
+</a>
+</li>
+<li>
+<a href="https://robotkittens.nl/jobs/senior-front-end-developer">
+<div class="job-info">
+<strong>
+Robot Kittens </strong>
+is hiring a
+Senior front-end developer </div>
+<address>
+<svg class="icon-pin" width="16px" height="16px">
+<use xlink:href="#icon-pin"></use>
+</svg>
+Hilversum (Amsterdam), The Netherlands </address>
+</a>
+</li>
+<li>
+<a href="https://bit.ly/aaaswebdesigner">
+<div class="job-info">
+<strong>
+AAAS </strong>
+is hiring a
+Web Designer </div>
+<address>
+<svg class="icon-pin" width="16px" height="16px">
+<use xlink:href="#icon-pin"></use>
+</svg>
+Washington, D.C. </address>
+</a>
+</li>
+<li>
+<a href="https://rcty.co/2oCoq8A">
+<div class="job-info">
+<strong>
+Team SI </strong>
+is hiring a
+Senior Wordpress Developer </div>
+<address>
+<svg class="icon-pin" width="16px" height="16px">
+<use xlink:href="#icon-pin"></use>
+</svg>
+Little Rock, AR </address>
+</a>
+</li>
+<li>
+<a href="https://www.notion.so/carthookonboardingandintegrationdocsfornmidashboardandreseller322904474e25425a9968816805c6aa24/Asynchronous-Remote-Work-at-www-BlueReceipt-com-3ec3b394b65a4ea5b76c6ef20198bea6">
+<div class="job-info">
+<strong>
+BlueReceipt - Omnichannel Conversational Commerce </strong>
+is hiring a
+Senior Level Front End Engineer </div>
+<address>
+<svg class="icon-pin" width="16px" height="16px">
+<use xlink:href="#icon-pin"></use>
+</svg>
+Remote
+</address>
+</a>
+</li>
+</ul>
+</div>
+</div>
 </div>
 <footer class="site-footer footer-newsletter">
 <div class="footer-newsletter-inside">
@@ -1179,12 +1810,6 @@ business, with a local development tool to match.
 <script src='https://css-tricks.com/wp-content/themes/CSS-Tricks-17/js/min/jquery-3.4.1.min.js'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var antispampro_vars = {"code":"micuno","input_name_suffix":"luwele"};
-/* ]]> */
-</script>
-<script src='https://css-tricks.com/wp-content/plugins/anti-spam-pro/js/anti-spam-pro-4.1.js'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
 var pollsL10n = {"ajax_url":"https:\/\/css-tricks.com\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"0","show_fading":"1"};
 /* ]]> */
 </script>
@@ -1194,13 +1819,12 @@ var pollsL10n = {"ajax_url":"https:\/\/css-tricks.com\/wp-admin\/admin-ajax.php"
 var JetpackInstantSearchOptions=JSON.parse(decodeURIComponent("%7B%22overlayOptions%22%3A%7B%22colorTheme%22%3A%22dark%22%2C%22enableInfScroll%22%3Afalse%2C%22highlightColor%22%3A%22%23f4af38%22%2C%22opacity%22%3A97%2C%22overlayTrigger%22%3A%22immediate%22%2C%22showPoweredBy%22%3Atrue%7D%2C%22homeUrl%22%3A%22https%3A%5C%2F%5C%2Fcss-tricks.com%22%2C%22locale%22%3A%22en-US%22%2C%22postsPerPage%22%3A%2210%22%2C%22siteId%22%3A45537868%2C%22postTypes%22%3A%7B%22post%22%3A%7B%22singular_name%22%3A%22Post%22%2C%22name%22%3A%22Posts%22%7D%2C%22page%22%3A%7B%22singular_name%22%3A%22Page%22%2C%22name%22%3A%22Pages%22%7D%2C%22attachment%22%3A%7B%22singular_name%22%3A%22Media%22%2C%22name%22%3A%22Media%22%7D%2C%22revision%22%3A%7B%22singular_name%22%3A%22Revision%22%2C%22name%22%3A%22Revisions%22%7D%2C%22nav_menu_item%22%3A%7B%22singular_name%22%3A%22Navigation%20Menu%20Item%22%2C%22name%22%3A%22Navigation%20Menu%20Items%22%7D%2C%22custom_css%22%3A%7B%22singular_name%22%3A%22Custom%20CSS%22%2C%22name%22%3A%22Custom%20CSS%22%7D%2C%22customize_changeset%22%3A%7B%22singular_name%22%3A%22Changeset%22%2C%22name%22%3A%22Changesets%22%7D%2C%22oembed_cache%22%3A%7B%22singular_name%22%3A%22oEmbed%20Response%22%2C%22name%22%3A%22oEmbed%20Responses%22%7D%2C%22user_request%22%3A%7B%22singular_name%22%3A%22User%20Request%22%2C%22name%22%3A%22User%20Requests%22%7D%2C%22wp_block%22%3A%7B%22singular_name%22%3A%22Block%22%2C%22name%22%3A%22Blocks%22%7D%2C%22payment_retry%22%3A%7B%22singular_name%22%3A%22Renewal%20Payment%20Retry%22%2C%22name%22%3A%22Renewal%20Payment%20Retries%22%7D%2C%22forum%22%3A%7B%22singular_name%22%3A%22Forum%22%2C%22name%22%3A%22Forums%22%7D%2C%22topic%22%3A%7B%22singular_name%22%3A%22Topic%22%2C%22name%22%3A%22Topics%22%7D%2C%22reply%22%3A%7B%22singular_name%22%3A%22Reply%22%2C%22name%22%3A%22Replies%22%7D%2C%22apto_sort%22%3A%7B%22singular_name%22%3A%22Post%22%2C%22name%22%3A%22Posts%22%7D%2C%22product%22%3A%7B%22singular_name%22%3A%22Product%22%2C%22name%22%3A%22Products%22%7D%2C%22product_variation%22%3A%7B%22singular_name%22%3A%22Variations%22%2C%22name%22%3A%22Variations%22%7D%2C%22shop_order%22%3A%7B%22singular_name%22%3A%22Order%22%2C%22name%22%3A%22Orders%22%7D%2C%22shop_order_refund%22%3A%7B%22singular_name%22%3A%22Refunds%22%2C%22name%22%3A%22Refunds%22%7D%2C%22shop_subscription%22%3A%7B%22singular_name%22%3A%22Subscription%22%2C%22name%22%3A%22Subscriptions%22%7D%2C%22screenshot%22%3A%7B%22singular_name%22%3A%22Screenshot%22%2C%22name%22%3A%22Screenshots%22%7D%2C%22guides%22%3A%7B%22singular_name%22%3A%22Guide%22%2C%22name%22%3A%22Guides%22%7D%2C%22newsletters%22%3A%7B%22singular_name%22%3A%22Newsletter%22%2C%22name%22%3A%22Newsletters%22%7D%2C%22chapters%22%3A%7B%22singular_name%22%3A%22Chapter%22%2C%22name%22%3A%22Chapters%22%7D%2C%22mc4wp-form%22%3A%7B%22singular_name%22%3A%22Sign-up%20Form%22%2C%22name%22%3A%22Mailchimp%20Sign-up%20Forms%22%7D%2C%22jp_mem_plan%22%3A%7B%22singular_name%22%3A%22Plan%22%2C%22name%22%3A%22Plan%22%7D%2C%22wc_membership_plan%22%3A%7B%22singular_name%22%3A%22Membership%20Plan%22%2C%22name%22%3A%22Membership%20Plans%22%7D%2C%22wc_user_membership%22%3A%7B%22singular_name%22%3A%22User%20Membership%22%2C%22name%22%3A%22Members%22%7D%2C%22jp_pay_order%22%3A%7B%22singular_name%22%3A%22Order%22%2C%22name%22%3A%22Order%22%7D%2C%22jp_pay_product%22%3A%7B%22singular_name%22%3A%22Product%22%2C%22name%22%3A%22Product%22%7D%7D%2C%22widgets%22%3A%5B%7B%22filters%22%3A%5B%7B%22name%22%3A%22Post%20Types%22%2C%22type%22%3A%22post_type%22%2C%22count%22%3A5%2C%22widget_id%22%3A%22jetpack-search-filters-5%22%2C%22filter_id%22%3A%22post_type_1%22%7D%2C%7B%22name%22%3A%22Year%22%2C%22type%22%3A%22date_histogram%22%2C%22count%22%3A1%2C%22field%22%3A%22post_date%22%2C%22interval%22%3A%22year%22%2C%22widget_id%22%3A%22jetpack-search-filters-5%22%2C%22filter_id%22%3A%22date_histogram_2%22%7D%2C%7B%22name%22%3A%22Tags%22%2C%22type%22%3A%22taxonomy%22%2C%22taxonomy%22%3A%22post_tag%22%2C%22count%22%3A5%2C%22widget_id%22%3A%22jetpack-search-filters-5%22%2C%22filter_id%22%3A%22taxonomy_3%22%7D%5D%2C%22widget_id%22%3A%22jetpack-search-filters-5%22%7D%5D%2C%22widgetsOutsideOverlay%22%3A%5B%7B%22filters%22%3A%5B%7B%22name%22%3A%22Tags%22%2C%22type%22%3A%22taxonomy%22%2C%22taxonomy%22%3A%22post_tag%22%2C%22count%22%3A5%2C%22widget_id%22%3A%22jetpack-search-filters-3%22%2C%22filter_id%22%3A%22taxonomy_0%22%7D%5D%2C%22widget_id%22%3A%22jetpack-search-filters-3%22%7D%5D%2C%22adminQueryFilter%22%3A%7B%22bool%22%3A%7B%22should%22%3A%5B%7B%22term%22%3A%7B%22post_type%22%3A%22post%22%7D%7D%2C%7B%22term%22%3A%7B%22post_type%22%3A%22page%22%7D%7D%2C%7B%22term%22%3A%7B%22post_type%22%3A%22guides%22%7D%7D%2C%7B%22term%22%3A%7B%22post_type%22%3A%22newsletters%22%7D%7D%2C%7B%22term%22%3A%7B%22post_type%22%3A%22chapters%22%7D%7D%5D%7D%7D%7D"));
 </script>
 <script src='//stats.wp.com/w.js?ver=202021'></script>
-<script src='https://css-tricks.com/wp-content/themes/CSS-Tricks-17/js/min/comment-reply.min.js?ver=1.1'></script>
 <script src='https://css-tricks.com/wp-content/plugins/jetpack/_inc/build/lazy-images/js/lazy-images.min.js?ver=8.5'></script>
 <script type='text/javascript' src='https://stats.wp.com/e-202021.js' async='async' defer='defer'></script>
 <script type='text/javascript'>
 	_stq = window._stq || [];
-	_stq.push([ 'view', {v:'ext',j:'1:8.5',blog:'45537868',post:'707',tz:'-7',srv:'css-tricks.com'} ]);
-	_stq.push([ 'clickTrackerInit', '45537868', '707' ]);
+	_stq.push([ 'view', {v:'ext',j:'1:8.5',blog:'45537868',post:'0',tz:'-7',srv:'css-tricks.com'} ]);
+	_stq.push([ 'clickTrackerInit', '45537868', '0' ]);
 </script>
 <script>
 window.activeMember = false;

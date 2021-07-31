@@ -1,1 +1,1 @@
-rep for inf tasks from 1st course
+rep for inf tasks from the 1st course
